@@ -1,4 +1,4 @@
-from reader import (Reader, MANAGER)
+from reader import Reader
 
 
 def test_reader(dummy_data_path):
