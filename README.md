@@ -25,3 +25,4 @@ python -m pytest tests
 
   * Console entry point for `navigation.py`.
   * Further improve the pylint score (current score 8.69/10).
+  * Optimize the navigation for when the mower is turned in directions that cancel each other such RL or LLLL/RRRR. 
