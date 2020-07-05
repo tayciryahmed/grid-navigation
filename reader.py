@@ -5,7 +5,8 @@ MANAGER = multiprocessing.Manager()
 
 class Reader:
     def __call__(self, input_file=None):
-        """Read and extract an input file.
+        """
+        Read and extract an input file.
 
         Keyword Arguments:
             input_file {str} -- The input file (default: {None})
