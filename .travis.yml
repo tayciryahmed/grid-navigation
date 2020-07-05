@@ -1,4 +1,4 @@
-language: python
+language: python3.7.3
 install: "pip install pytest-cov"
 script:
     - python -m pytest -sv ./tests/ --cov
