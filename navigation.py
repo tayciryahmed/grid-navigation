@@ -7,7 +7,8 @@ from utils import (orientations, movements)
 
 
 def worker(instructions, m_id, grid_size):
-    """Perform the grid updates given a mower.
+    """
+    Perform the grid updates given a mower.
 
     Arguments:
         instructions {str} -- string of instructions with chars R/L/F.
