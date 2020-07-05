@@ -7,13 +7,13 @@ Grid navigation for multiple mowers.
 
 ## To execute on a file
 
-```
+```bash
 python navigation.py <input_file>
 ```
 
 ## To run the tests
 
-```
+```bash
 python -m pytest tests
 ```
 
