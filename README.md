@@ -19,5 +19,5 @@ python -m pytest tests
 
 ## Further improvements
 
-* Console entry point for `navigation.py`.
-* Further improve the pylint score (current score 8.69/10).
+  * Console entry point for `navigation.py`.
+  * Further improve the pylint score (current score 8.69/10).
