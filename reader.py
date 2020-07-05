@@ -4,17 +4,18 @@ MANAGER = multiprocessing.Manager()
 
 
 class Reader:
+    """
+    Read and extract an input file.
+
+    Keyword Arguments:
+        input_file {str} -- The input file (default: {None})
+
+    Returns:
+        tuple -- variables used by the program
+        (n, mowers_movements, grid, grid_size)
+    """
+
     def __call__(self, input_file=None):
-        """
-        Read and extract an input file.
-
-        Keyword Arguments:
-            input_file {str} -- The input file (default: {None})
-
-        Returns:
-            tuple -- variables used by the program
-            (n, mowers_movements, grid, grid_size)
-        """
         lines = open(input_file).readlines()
         if len(lines) % 2 == 0:
             raise ValueError("input file should have an odd number of lines")
