@@ -1,4 +1,7 @@
 # grid-navigation
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8bb6f8af62004bb9b9179ac840cf702b)](https://app.codacy.com/manual/tayciryahmed/grid-navigation?utm_source=github.com&utm_medium=referral&utm_content=tayciryahmed/grid-navigation&utm_campaign=Badge_Grade_Dashboard)
+
 Grid navigation for multiple mowers.
 
 ## To execute on a file
