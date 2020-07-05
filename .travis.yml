@@ -1,4 +1,4 @@
 language: python
-install: "pip install pytest codecov"
+install: "pip install pytest-cov"
 script:
     - python -m pytest -sv ./tests/ --cov
