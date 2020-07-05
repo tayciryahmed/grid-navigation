@@ -19,6 +19,8 @@ def worker(instructions, m_id, grid_size):
     for c in instructions:
         if c in ['R', 'L']:
             o = orientations[(o, c)]
+            c_ind = GRID[m_id]
+            GRID[m_id] = (c_ind[0], c_ind[1], o)
         elif c == 'F':
             mov = movements[o]
             c_ind = GRID[m_id]
