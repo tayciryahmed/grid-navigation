@@ -5,6 +5,10 @@
 
 Grid navigation for multiple mowers.
 
+## Requirements 
+
+Python 3.7
+
 ## To execute on a file
 
 ```bash
