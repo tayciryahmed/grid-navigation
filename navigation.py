@@ -60,4 +60,4 @@ if __name__ == "__main__":
     
     # grid has a sparse representation: {'mower_id': (X, Y, O)} 
     for mower in GRID.values():
-        print(mower[0] + " " + mower[1] + " " + mower[2])
+        print(str(mower[0]) + " " + str(mower[1]) + " " + mower[2])
