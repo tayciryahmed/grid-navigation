@@ -1,6 +1,5 @@
 import subprocess
 import navigation
-from utils import (movements, orientations)
 
 
 def test_worker():
