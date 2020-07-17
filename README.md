@@ -26,4 +26,7 @@ python -m pytest tests
 
   * Console entry point for `navigation.py`.
   * Further improve the pylint score (current score 9.37/10).
+  * Change the reader the be an interator to manage big files and not read all lines in memory. 
   * Optimize the navigation for when the mower is turned in directions that cancel each other such as RL or LLLL/RRRR. 
+  * Manage the case many mowers are in the same position initially.
+  * The check to ovoid overlapping mowers in [navigation.py#L28](https://github.com/tayciryahmed/grid-navigation/blob/master/navigation.py#L28) is not correct because also considers the orientation, while comparing a 2-element tuple to a 3-element tuple.
