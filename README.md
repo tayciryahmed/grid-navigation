@@ -30,3 +30,4 @@ python -m pytest tests
   * Optimize the navigation for when the mower is turned in directions that cancel each other such as RL or LLLL/RRRR. 
   * Manage the case many mowers are in the same position initially.
   * The check to ovoid overlapping mowers in [navigation.py#L28](https://github.com/tayciryahmed/grid-navigation/blob/master/navigation.py#L28) is not correct because also considers the orientation, while comparing a 2-element tuple to a 3-element tuple.
+  * Change all 'R', 'L', 'F' strings in string with an enum class in utils.py and or simply a dict.
