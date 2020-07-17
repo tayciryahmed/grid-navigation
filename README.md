@@ -31,3 +31,4 @@ python -m pytest tests
   * Manage the case many mowers are in the same position initially.
   * The check to ovoid overlapping mowers in [navigation.py#L28](https://github.com/tayciryahmed/grid-navigation/blob/master/navigation.py#L28) is not correct because considers the orientation, while comparing a 2-element tuple to a 3-element tuple.
   * Change all 'R', 'L', 'F' strings in string with an enum class in utils.py and or simply a dict (e.g. for multilingual input).
+  * Change the check on instructions should be in [R', 'L', 'F'] to [reader.py#L35](https://github.com/tayciryahmed/grid-navigation/blob/master/reader.py#L35)
